@@ -68,14 +68,5 @@ gene_plot<-function(mat,align_id='All',pos=16857,add_pos=NULL,mark='align_id',po
   return(p)
 }
 
-# test<-read.table('./data1/2020Year/rs_finder/Plot/hg19_genelist',sep='\t',header=T,stringsAsFactors = F)
-# test<-test[test$hg19.knownGene.chrom=='chr1',]
-# pos=14361
-# forw1=14361-1000
-# reve1=14361+1000
-# 
-# test<-test[test$hg19.knownGene.txStart<pos&test$hg19.knownGene.txEnd>pos,]
-# gene_plot(test,pos=pos,front = 1000,behind=1000)
-# 
-# mat=test;pos=pos;front = 1000;behind=1000;mark='align_id';point_size=10;add_pos='14361,14561,14061'
+
 
